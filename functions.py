@@ -7,6 +7,7 @@ import networkx
 
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 
 #FEATURE ENGENEERING FOR LSA AND TEXT RANK
 def feature_engineering(doc):
