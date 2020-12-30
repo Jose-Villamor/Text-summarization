@@ -1,10 +1,12 @@
 import re
 from gensim.summarization import summarize
-import nltk
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.sparse.linalg import svds
 import networkx
+
+import nltk
+nltk.download('punkt')
 
 #FEATURE ENGENEERING FOR LSA AND TEXT RANK
 def feature_engineering(doc):
